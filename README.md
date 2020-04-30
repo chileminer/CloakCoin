@@ -12,7 +12,7 @@ This is the official CloakCoin Repository. If you want more info about Cloakcoin
 | Consensus Algorithm | Proof-of-Stake |
 |    Rewards    |    6% P.A.    |
 |  Block Time   |    60 sec     |
-| Circulating Supply |   5.2M   |
+| Circulating Supply |   5.4M   |
 
 ## Social Networks & channels
 
@@ -47,7 +47,7 @@ To install the dependencies, you need to use your system package manager:
 | Dep            | Min. version   | Ubuntu pkg             | HomeBrew pkg    | Optional | Purpose        |
 | -------------- | -------------- | ---------------------- | --------------- | -------- | -------------  |
 | Qt             | 5.5.1          | `qt5-default`          | `qt`            | NO       | GUI            |
-| Boost          | 1.57/1.58*     | `libboost-all-dev`     | `boost@1.57`    | NO       | C++ libraries  |
+| Boost          | 1.66           | `libboost-all-dev`     | `boost@1.57`    | NO       | C++ libraries  |
 | OpenSSL        | 1.0.2g         | `libssl-dev`           | `openssl`       | NO       | ha256 sum      |
 | Curl           | 7.16**         | `libcurl4-openssl-dev` | `curl`          | NO       | Requests       |
 | libevent       | 2.0.21         | `libevent-dev `        | `libevent`      | NO       | Events         |
@@ -71,6 +71,8 @@ Using the command line, run:
 ```qmake && make```
 
 Alternative Linux build tutorial can be found [here](https://gist.github.com/brannondorsey/1153ec2f50d1c88c9f028a3c9ced7b8d). Thanks [Brannon](https://github.com/brannondorsey)
+
+Linux headless, Ubuntu QT GUI & Raspberry Pi build instructions can be found [here](https://wiki.cloakcoin.com/Index.php/Compile_the_CloakCoin_Client).
 
 ## License
 
