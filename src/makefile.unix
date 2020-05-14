@@ -5,7 +5,7 @@
 TOR_OBJS := $(shell mkdir -p $(CURDIR)/obj/tor)
 ENIGMA_OBJS := $(shell mkdir -p $(CURDIR)/obj/enigma)
 
-USE_UPNP:=0
+USE_UPNP:=-
 USE_IPV6:=1
 USE_LEVELDB:=1
 STATIC:=1
@@ -59,7 +59,7 @@ LIBS += \
    -l rt
 
 ifndef USE_UPNP
-	override USE_UPNP = 0
+	override USE_UPNP = -
 endif
 ifneq (${USE_UPNP}, 0)
 	LIBS += /opt/deps/miniupnpc/libminiupnpc.a
